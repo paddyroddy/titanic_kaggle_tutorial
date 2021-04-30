@@ -1,7 +1,7 @@
 # All functions in this file come from https://github.com/agconti/KaggleAux
+import numpy as np
 import pandas as pd
 from patsy import dmatrices
-import numpy as np
 
 
 def _get_intersection(df, comparator1, comparator2):
